@@ -5,13 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body{
+      font-family: Outfit, Arial;
+      background-color: hsl(212, 45%, 89%)
+    }
+    .projectContainer{
+      background-color: hsl(0, 0%, 100%);
+      padding: 10px;
+      text-align: center;
+    }
     .attribution{ 
-      font-size: 11px; 
+      font-size: 15px; 
       text-align: center; 
     }
     .attribution a{
@@ -20,14 +32,16 @@
   </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Vincent Dao</a>.
+  <div class="projectContainer">
+    <div class="qrCodeContainer">
+      <img class="qrCodeImg" src="./images/image-qr-code.png">
+    </div>
+    Improve your front-end skills by building projects
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Vincent Dao</a>.
+    </div>
   </div>
 </body>
 </html>
