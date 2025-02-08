@@ -14,13 +14,44 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     body{
+      margin: 0;
       font-family: Outfit, Arial;
-      background-color: hsl(212, 45%, 89%)
+      background-color: hsl(212, 45%, 89%);
+    }
+    h1{
+      margin: 0;
+      margin: 0px 20px;
+      font-size: 20px;
+      margin-bottom: 18px;
+    }
+    p{
+      margin: 0;
+      margin: 0px 20px;
+      font-size: 14px;
+      color: gray;
+      padding-bottom: 20px;
     }
     .projectContainer{
+      position: absolute;
+      top: 20%;
+      left: 0;
+      right: 0;
+      margin-inline: auto;
+      width: fit-content;
+      
       background-color: hsl(0, 0%, 100%);
       padding: 10px;
       text-align: center;
+
+      width: 275px;
+      border-radius: 10px;
+
+      box-shadow: -2px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    .qrCodeImg{
+      width: 275px;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
     .attribution{ 
       font-size: 15px; 
@@ -36,12 +67,13 @@
     <div class="qrCodeContainer">
       <img class="qrCodeImg" src="./images/image-qr-code.png">
     </div>
-    Improve your front-end skills by building projects
-    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Vincent Dao</a>.
-    </div>
+    <h1>Improve your front-end skills by building projects</h1>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Vincent Dao</a>.
   </div>
 </body>
 </html>
